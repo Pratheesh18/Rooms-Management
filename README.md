@@ -12,13 +12,32 @@ To run the project locally
  * install the dependencies - npm install
  * Run the server - npm run dev
 
+## 📝 Instructions
+
+### Adding a Room
+1. Click the **"Add Room"** button located near the tabs.
+2. Enter a name for the new room in the dialog that appears.
+3. Click **"Add"** to create the room. The new room will be added as a new tab, allowing you to switch between different rooms.
+
+### Saving a Room
+1. After making any changes (such as adding or repositioning tables), click the **"Save Room"** button.
+2. This will save the current layout of tables and room details to local storage, ensuring your changes persist even after a page refresh.
+
+### Deleting a Room
+1. To delete a room, select the room tab you want to remove.
+2. Use the **"Delete"** option (if implemented as a button or icon) to remove the room. 
+3. Once deleted, the room and its contents will be removed from both the UI and local storage. And you have to save the room to see the updated UI.
+
+---
+
+
+
 ## 🚀 Technologies Used
 
 - **React**: Frontend library
 - **Material-UI**: UI components
 - **React DnD**: Drag-and-drop functionality
 - **Local Storage**: Data persistence
-- **JavaScript (ES6+)**: Language features
 - **CSS (via Material-UI)**: Styling
 
 ## 🎯 Precise Drag-and-Drop Positioning
