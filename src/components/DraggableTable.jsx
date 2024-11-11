@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { useDrag } from 'react-dnd';
 import { Box, IconButton, Paper, Typography } from '@mui/material';
@@ -55,7 +56,7 @@ const DraggableTable = ({
   
   const shapeStyles = table.type === 'round' ? {
     width: 100,
-    height: 100,
+    height: 200,
     borderRadius: '50%',
     ...commonStyles
   } : {

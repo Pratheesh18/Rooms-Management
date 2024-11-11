@@ -92,10 +92,10 @@ const FloorPlan = ({
           `2px solid ${isOver ? theme.palette.primary.main : theme.palette.grey[300]}`,
         borderRadius: 1,
         overflow: 'hidden',
-        minHeight: '500px',
+        minHeight: '400px',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center'
       }}
     >
       {tables.length > 0 ? (

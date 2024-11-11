@@ -91,7 +91,7 @@ const FloorManagement = () => {
   
 
   return (
-    <Container maxWidth={false} sx={{ py: 3, height: '100vh' }}>
+    <Container maxWidth={false} sx={{ py: 3, height: '100vh' , mb:2 }}>
       <Typography variant="h5" sx={{ mb: 3 }}>
         Floor Management
       </Typography>
@@ -108,7 +108,7 @@ const FloorManagement = () => {
           )} */}
         </Paper>
 
-        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column'}}>
           <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 2 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <Tabs
